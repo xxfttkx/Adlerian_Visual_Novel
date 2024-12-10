@@ -1,0 +1,36 @@
+# User-specific files
+UserSettings/
+
+# Build results
+[Ll]ibrary/
+[Ll]ogs/
+[Tt]emp/
+Build/
+Builds/
+.obj/
+
+# User-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln*
+*.swp
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# JetBrains Rider
+.idea/
+
+# Unity generated folders
+/[Aa]ssets/AssetStoreTools*
