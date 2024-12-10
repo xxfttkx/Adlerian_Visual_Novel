@@ -1,0 +1,18 @@
+{
+    "scenes": [
+      {
+        "id": "scene1",
+        "lines": [
+          {"character": "Alice", "text": "Hello! How are you?"},
+          {"character": "Bob", "text": "I'm fine, thank you! And you?"}
+        ]
+      },
+      {
+        "id": "scene2",
+        "lines": [
+          {"character": "Alice", "text": "Let's start our journey."}
+        ]
+      }
+    ]
+  }
+  
