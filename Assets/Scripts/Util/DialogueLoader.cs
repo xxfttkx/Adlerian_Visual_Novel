@@ -2,20 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueLoader : MonoBehaviour
+public class DialogueLoader : Singleton<DialogueLoader>
 {
-    void ReadJson()
+    public GameData gameData;
+    public SceneData ReadScene(int index)
     {
-        TextAsset jsonFile = Resources.Load<TextAsset>("json");
-        DialogueData dialogueData = JsonUtility.FromJson<DialogueData>(jsonFile.text);
-
-        foreach (var scene in dialogueData.scenes)
-        {
-            Debug.Log("Scene ID: " + scene.id);
-            foreach (var line in scene.lines)
-            {
-                Debug.Log(line.character + ": " + line.text);
-            }
-        }
+        string path = "json"+index;
+        TextAsset jsonFile = Resources.Load<TextAsset>(path);
+        SceneData sceneData = JsonUtility.FromJson<SceneData>(jsonFile.text);
+        return sceneData;
     }
 }

@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Game\EventHandler.cs" />
-    <Compile Include="Assets\Scripts\Data\DialogueData.cs" />
     <Compile Include="Assets\Scripts\Dev\TalkManager.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\File\OpenFile.cs" />
@@ -67,10 +66,9 @@
     <Compile Include="Assets\Scripts\Button\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Util\Singleton.cs" />
     <Compile Include="Assets\Scripts\Button\AddItem.cs" />
-    <Compile Include="Assets\Scripts\Data\GameData.cs" />
-    <Compile Include="Assets\Scripts\File\OpenFileName.cs" />
-    <Compile Include="Assets\Scripts\Data\SceneData.cs" />
     <Compile Include="Assets\Scripts\Util\DialogueLoader.cs" />
+    <Compile Include="Assets\Scripts\File\OpenFileName.cs" />
+    <Compile Include="Assets\Scripts\Data\DataCollections.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

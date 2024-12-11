@@ -9,7 +9,7 @@ public class TalkManager : Singleton<TalkManager>
     public void ShowGameData()
     {
         if(gameData==null)return;
-        foreach(var s in gameData.tDialogueData)
+        foreach(var s in gameData.sceneDataList)
         {
 
         }
